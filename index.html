@@ -7,12 +7,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="src/css/style.css">
     <script src="https://kit.fontawesome.com/dc67565eca.js" crossorigin="anonymous"></script>
-    <title>Study Pomodoro</title>
+    <title>Pomegranate</title>
 </head>
 <body>
     <div class="container pheader">
       <div class="my-5 text-center">
-        <h1>Study Pomodoro</h1>
+        <h1>Pomegranate</h1>
         <div class="button-container">
             <button type="button" id="start_pomodoro" class="btn btn-light mx-1">Pomodoro</button>
             <button type="button" id="sbreak_countdown" class="btn btn-light mx-1">Short Break</button>
@@ -52,11 +52,7 @@
 
     <div class="container mplayer">
       <div class="container">
-        <div data-video="5qap5aO4i9A"
-        data-autoplay="0"
-        data-loop="1"
-        id="youtube-audio">
-        </div>
+        <div data-video="5qap5aO4i9A" data-autoplay="0" data-loop="1" id="youtube-audio"></div>
         <div class="container description">
           <div class="btn-group">
             <button type="button" id="mselector" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><p id="selected-music">lofi hip hop radio - beats to relax/study to</p>
@@ -72,9 +68,30 @@
     </div>
 
 
+    <div class="container todo">
+      <h1 class="todo-header">Things to do today</h1>
+      <div class="container">
+          <div class="inputField">
+            <input type="text" placeholder="Add task">
+            <button><i class="fas fa-plus"></i></button>
+          </div>
+          <div class="task-list">
+            <div class="box">
+              <ul class="todoList">
+                <!-- data are comes from local storage -->
+              </ul>
+            </div>
+          </div>
+          <div class="c-update">
+            <span>You have <span class="pendingTasks"></span> pending tasks</span>
+            <button>Clear All</button>
+          </div>
+      </div>
+    </div>
 
 
-    <footer><p><small>All are youtube streams for copyright purposes</small></p>
+
+    <footer><p><small>All of the music played are Youtube Livestream</small></p>
     </footer>
 
     
@@ -82,6 +99,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     <script src="src/js/timer.js"></script>
     <script src="src/js/player.js"></script>
+    <script src="src/js/todo.js"></script>
 </body>
 </html>
 

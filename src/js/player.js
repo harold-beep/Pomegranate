@@ -2,19 +2,19 @@ const showText = document.getElementById('selected-music');
 
 document.getElementById('music1').onclick =
     function (){
-        document.getSelection('data-video').value = '5qap5aO4i9A';
+        document.getElementsByTagName('data-video') = '5qap5aO4i9A';
         showText.innerHTML = 'lofi hip hop radio - beats to relax/study to';
     }
 
 document.getElementById('music2').onclick =
     function (){
-        document.getSelection('data-video').value = '-HWuaZyGk-E';
+        document.getElementsByTagName('data-video') = '-HWuaZyGk-E';
         showText.innerHTML = 'Ambient Lofi/Jazz';
     }
 
 document.getElementById('music3').onclick =
     function (){
-        document.getSelection('data-video').value = 'DWcJFNfaw9c';
+        document.getElementsByTagName('data-video') = 'DWcJFNfaw9c';
         showText.innerHTML = 'lofi hip hop radio - beats to sleep/chill to';
     }
 
