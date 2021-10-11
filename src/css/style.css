@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+h4 {
+  font-size: 10em;
+}
+h2 {
+  font-size: 1em;
+}
+
+.show-clock {
+  max-width: 500px;
+  top: 380px;
+  left: 500px;
+  float: right;
+}
+
+.pheader {
+  z-index: 1;
+  max-width: 500px;
+  float: right;
+}
+
+.container {
+  position: relative;
+}
+
+.mplayer {
+  max-width: 400px;
+  float: left;
+  left: 100px;
+  top: 200px;
+}
+
+.description {
+  margin-top: -90px;
+  margin-left: 160px;
+}
+
+#start-timer, #pause-timer, #reset-timer, #clear-timer {
+  font-size: 1.4em;
+}
+
+#start_pomodoro:hover, #sbreak_countdown:hover, #lbreak_countdown:hover, #dropdownMenuButton1:hover, #submit:hover, #start-timer:hover, #pause-timer:hover, #reset-timer:hover, #clear-timer:hover, #mselector:hover {
+  background-color: #b7b7a4;
+  color: antiquewhite;
+}
+
+footer {
+  position: fixed;
+  height: 25px;
+  bottom: 0;
+  width: 100%;
+  background-color: #b7b7a4;
+  color: black;
+  text-align: center;
+}
+
+
+
+
+/*-----------------------------------------------------------------------------*/
+@media (max-width: 967px){
+  h4 {
+    font-size: 4em;
+  }
+
+  .show-clock {
+    max-width: 2520px;
+    top: 0px;
+    left: 0px;
+  }
+
+  .container {
+    position: relative;
+    float: none ;
+  }
+
+  .mplayer {
+    margin-top: 50px;
+    text-align: center;
+    max-width: 400px;
+    float: none;
+    left: 0;
+    top: 0;
+  }
+  .description {
+    text-align: center;
+    margin-top: 0;
+    margin-left: 0;
+  }
+}
