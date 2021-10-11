@@ -10,16 +10,18 @@ const showTimer = document.getElementById("timer");
 
 document.getElementById("start_pomodoro").onclick = 
     function(){
+        tempReset = 25;
         time = 25 * 60;
         minutes = Math.floor(time / 60);
         seconds = time % 60;
         seconds = seconds < 10 ? '0' + seconds : seconds;
-
+        minutes = minutes < 10 ? '0' + minutes : minutes;
         showTimer.innerHTML = minutes+":"+seconds;
     }
 
 document.getElementById("sbreak_countdown").onclick = 
     function(){
+        tempReset = 5;
         time = 5 * 60;
         minutes = Math.floor(time / 60);
         seconds = time % 60;
@@ -30,6 +32,7 @@ document.getElementById("sbreak_countdown").onclick =
 
 document.getElementById("lbreak_countdown").onclick = 
     function(){
+        tempReset = 15;
         time = 15 * 60;
         minutes = Math.floor(time / 60);
         seconds = time % 60;
@@ -41,6 +44,7 @@ document.getElementById("lbreak_countdown").onclick =
 document.getElementById("submit").onclick = 
     function(){
         let minutes = parseInt(document.getElementById("new_min_countdown").value);
+        tempReset = minutes;
         if(minutes > 60){
             alert("Enter less than 59 minutes");
             document.getElementById("new_min_countdown").value = 'Enter Minutes';
@@ -84,5 +88,16 @@ document.getElementById("pause-timer").onclick =
 document.getElementById("reset-timer").onclick =
     function(){
         clearInterval(countdown);
-        showTimer.innerHTML = "00:00";
+        tempReset = tempReset * 60;
+        minutes = Math.floor(tempReset / 60);
+        seconds = tempReset % 60;
+        seconds = seconds < 10 ? '0' + seconds : seconds;
+        minutes = minutes < 10 ? '0' + minutes : minutes;
+        showTimer.innerHTML = minutes+":"+seconds;
+    }
+
+document.getElementById("clear-timer").onclick =
+    function(){
+        clearInterval(countdown);
+        showTimer.innerHTML = '00:00';
     }

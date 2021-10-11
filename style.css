@@ -48,7 +48,7 @@ h2 {
   font-size: 1.4em;
 }
 
-#start_pomodoro:hover, #sbreak_countdown:hover, #lbreak_countdown:hover, #dropdownMenuButton1:hover, #submit:hover, #start-timer:hover, #pause-timer:hover, #reset-timer:hover, #mselector:hover {
+#start_pomodoro:hover, #sbreak_countdown:hover, #lbreak_countdown:hover, #dropdownMenuButton1:hover, #submit:hover, #start-timer:hover, #pause-timer:hover, #reset-timer:hover, #clear-timer:hover, #mselector:hover {
   background-color: #b7b7a4;
   color: antiquewhite;
 }
