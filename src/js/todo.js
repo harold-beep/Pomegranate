@@ -1,3 +1,8 @@
+/** All JavaScript, CSS Styling, and HTML format came from the website
+ * https://www.codingnepalweb.com/todo-list-app-javascript/
+ * **/
+
+
 // getting all required elements
 const inputBox = document.querySelector(".inputField input");
 const addBtn = document.querySelector(".inputField button");
@@ -62,6 +67,3 @@ deleteAllBtn.onclick = ()=>{
   showTasks(); //call the showTasks function
 }
 
-/** All JavaScript, CSS Styling, and HTML format came from the website
- * https://www.codingnepalweb.com/todo-list-app-javascript/
- * **/
