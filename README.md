@@ -9,3 +9,7 @@ https://colorpalettes.net/color-palette-4138/
 #cab7ab
 #83552d
 
+
+# the working link https://harold-beep.github.io/Pomegranate/
+(needed to add google domain before initial launch)
+
