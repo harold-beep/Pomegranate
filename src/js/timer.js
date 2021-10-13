@@ -89,6 +89,7 @@ document.getElementById("reset-timer").onclick =
     function(){
         clearInterval(countdown);
         tempReset = tempReset * 60;
+        time = tempReset;
         minutes = Math.floor(tempReset / 60);
         seconds = tempReset % 60;
         seconds = seconds < 10 ? '0' + seconds : seconds;
