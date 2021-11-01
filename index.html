@@ -14,10 +14,10 @@
       <div class="my-5 text-center">
         <h1>Pomegranate</h1>
         <div class="button-container">
-            <button type="button" id="start_pomodoro" class="btn btn-light mx-1">Pomodoro</button>
-            <button type="button" id="sbreak_countdown" class="btn btn-light mx-1">Short Break</button>
-            <button type="button" id="lbreak_countdown" class="btn btn-light mx-1">Long Break</button>
-            <button type="button" id="dropdownMenuButton1" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Edit Timer</button>
+            <button type="button" id="start_pomodoro" class="btn btn-light mx-1 my-1">Pomodoro</button>
+            <button type="button" id="sbreak_countdown" class="btn btn-light mx-1 my-1">Short Break</button>
+            <button type="button" id="lbreak_countdown" class="btn btn-light mx-1 my-1">Long Break</button>
+            <button type="button" id="dropdownMenuButton1" class="btn btn-light mx-1 my-1 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Edit Timer</button>
             <div class="dropdown-menu dropdown-menu-end p-2 my-3" aria-labelledby="dropdownMenuButton1">
                 <input type="number" id="new_min_countdown" placeholder="Enter Minutes">
                 <button type="button" id="submit" class="btn btn-light">Set Timer</button>
@@ -43,14 +43,14 @@
         <div class="container">
           <h4 id="timer"></h4>
         </div>
-          <button type="button" id="start-timer" class="btn btn-light mx-2"><i class="fas fa-play"></i></button>
-          <button type="button" id="pause-timer" class="btn btn-light mx-2"><i class="fas fa-pause"></i></i></button>
-          <button type="button" id="reset-timer" class="btn btn-light mx-2"><i class="fas fa-redo"></i></button>
-          <button type="button" id="clear-timer" class="btn btn-light mx-2">Clear Timer</button>
+          <button type="button" id="start-timer" class="btn btn-light mx-2 my-2"><i class="fas fa-play"></i></button>
+          <button type="button" id="pause-timer" class="btn btn-light mx-2 my-2"><i class="fas fa-pause"></i></i></button>
+          <button type="button" id="reset-timer" class="btn btn-light mx-2 my-2"><i class="fas fa-redo"></i></button>
+          <button type="button" id="clear-timer" class="btn btn-light mx-2 my-2">Clear Timer</button>
       </div>
     </div>
 
-    <div class="container mplayer">
+    <!-- <div class="container mplayer">
       <div class="container">
         <div data-video="5qap5aO4i9A" data-autoplay="0" data-loop="1" id="youtube-audio"></div>
         <div class="container description">
@@ -65,12 +65,20 @@
           </div>
         </div>
       </div>
-    </div>
-
-
-    <!-- <div class="container mini-yt">
-tangina tangina
     </div> -->
+
+
+    <div class="container mini-yt">
+      <div class="container mini-screen" id="mini-screen"></div>
+      <div class="container search">
+        <div class="form-group">
+          <input type="text" class="form-control" id="search">
+        </div>
+        <div class="form-group">
+          <button type="button" class="btn btn-light my-2" value="Search">Search</button>
+        </div>
+      </div>
+    </div>
 
 
     <div class="container todo">
@@ -96,7 +104,7 @@ tangina tangina
 
 
 
-    <footer><small>All of the music played are Youtube Livestream</small></footer>
+    <!-- <footer><small>All of the music played are Youtube Livestream</small></footer> -->
 
     
     <!-- JavaScript Bundle with Popper -->

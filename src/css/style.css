@@ -44,10 +44,31 @@ h2 {
   top: 200px;
 }
 
+.mini-yt {
+  max-width: 500px;
+  float: left;
+  left: 10px;
+  top: 95px;
+  overflow: hidden;
+  background: red;
+}
+
+.mini-screen {
+  position: relative;
+  margin: 5px 0 5px 0;
+  width: 475px;
+  height: 180px;
+  background: green;
+}
+
+.search {
+  margin-left: 0;
+}
+
 .todo {
   max-width: 500px;
   float: left;
-  right: 390px;
+  left: -490px;
   bottom: 210px;
   width: 100%;
 }
@@ -245,12 +266,18 @@ footer {
   .todo {
     max-width: 500px;
     float: none;
-    right: 0;
+    left: 0;
     bottom: 0;
     width: 100%;
     margin-top: 50px;
   }
   .todo-header {
     text-align: center;
+  }
+  .mini-yt {
+    float: none;
+    left: 0;
+    top: 0;
+    margin-top: 50px;
   }
 }
