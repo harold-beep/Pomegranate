@@ -1,5 +1,5 @@
 # Pomegranate [UNDER CONSTRUCTION]
-An easthetic web app help to boost productivity.
+An easthetic web app help to boost productivity.<br>
 <sub>eliminate decision fatigue and focus more on what's important. whether it's work or study</sub>
 
 # Color Pallete
