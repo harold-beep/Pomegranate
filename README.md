@@ -1,5 +1,6 @@
 # Pomegranate [UNDER CONSTRUCTION]
-A pomodoro website complete with a radio-like livestream of youtube lo-fi beats using youtube api and task notes
+An easthetic web app help to boost productivity.
+<sub>eliminate decision fatigue and focus more on what's important. whether it's work or study</sub>
 
 # Color Pallete
 https://colorpalettes.net/color-palette-4138/
