@@ -3,8 +3,8 @@ An easthetic web app help to boost productivity.<br>
 <sub>eliminate decision fatigue and focus more on what's important. whether it's work or study</sub>
 
 # Color Pallete
-https://colorpalettes.net/color-palette-4138/<br>
-#068a9c &nbsp; #770f10 &nbsp; #d44a1e &nbsp; #cab7ab &nbsp; #83552d
+https://coolors.co/palette/daf2d7-e4fde1-c6edc3-a7dca5-90cf8e<br>
+#DAF2D7 &nbsp; #E4FDE1 &nbsp; #C6EDC3 &nbsp; #A7DCA5 &nbsp; #90CF8E &nbsp; #1d1c1a(black)
 
 
 # Documentation will follow
