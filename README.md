@@ -28,3 +28,16 @@ export default {
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+
+
+# Pomegranate [UNDER CONSTRUCTION]
+An easthetic web app help to boost productivity.<br>
+<sub>eliminate decision fatigue and focus more on what's important. whether it's work or study</sub>
+
+# Color Pallete
+https://coolors.co/palette/daf2d7-e4fde1-c6edc3-a7dca5-90cf8e<br>
+#DAF2D7 &nbsp; #E4FDE1 &nbsp; #C6EDC3 &nbsp; #A7DCA5 &nbsp; #90CF8E &nbsp; #1d1c1a(black)
+
+
+# Documentation will follow
