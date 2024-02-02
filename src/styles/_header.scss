@@ -1,0 +1,23 @@
+@use "./palette";
+@use "./fonts";
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+
+  .header-content {
+    flex-wrap: wrap;
+    padding: 6px 80px;
+    color: palette.$color-text;
+    background-color: palette.$color-main;
+    border-radius: 24em;
+  }
+
+  Button {
+    margin: 0 0.8rem;
+    padding: 0.3rem 0.5rem;
+  }
+}

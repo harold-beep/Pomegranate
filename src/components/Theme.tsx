@@ -8,7 +8,8 @@ const Theme = ({ children }: { children: ReactNode }) => {
         styleOverrides: {
           root: {
             textTransform: "none",
-            color: "#000",
+            color: "#1d1c1a",
+            padding: 0,
           },
         },
       },
@@ -18,14 +19,6 @@ const Theme = ({ children }: { children: ReactNode }) => {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            boxShadow: "none",
-          },
-        },
-      },
-      MuiStack: {
-        styleOverrides: {
-          root: {
-            backgroundColor: "#E4FDE1",
           },
         },
       },

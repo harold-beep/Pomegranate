@@ -1,13 +1,14 @@
+import Header from "./components/Header";
+import Container from "./components/Container";
 import Theme from "./components/Theme";
-import AppLayout from "./pages/Layout/AppLayout";
+import "./styles.scss";
 
 function App() {
   return (
-    <>
-      <Theme>
-        <AppLayout />
-      </Theme>
-    </>
+    <Theme>
+      <Header />
+      <Container />
+    </Theme>
   );
 }
 

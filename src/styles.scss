@@ -1,0 +1,14 @@
+@use "./styles/fonts";
+@use "./styles/header";
+@use "./styles/container";
+@use "./styles/palette";
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: palette.$color-bg-light;
+
+  //TODO update this
+  display: flex;
+  flex-direction: column;
+}
