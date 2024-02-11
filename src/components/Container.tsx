@@ -1,11 +1,8 @@
-import { Box, Typography } from "@mui/material";
+import { Box } from "@mui/material";
+import { ReactNode } from "react";
 
-const Container = () => {
-  return (
-    <Box className="container">
-      <Typography className="empty">brudda what u want to do</Typography>
-    </Box>
-  );
+const Container = ({ children }: { children: ReactNode }) => {
+  return <Box className="container">{children}</Box>;
 };
 
 export default Container;

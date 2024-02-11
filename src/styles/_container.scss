@@ -1,22 +1,19 @@
 @use "./palette";
-@use "./fonts";
 
 .container {
+  border-radius: 24px;
+  padding: 28px;
+  margin: 0 1vw;
+  // background-color: palette.$color-bg-dark;
+  // box-shadow: -1px 1px rgb(palette.$color-text, 0.1) inset;
+  // height: calc(100vh - 150px);
   display: flex;
   flex-wrap: wrap;
+  gap: 50px;
   justify-content: center;
-  align-items: center;
-  margin: 0 5vw;
-  padding: 2vh 3vw;
-  border-radius: 24px;
-  background-color: palette.$color-bg-dark;
-  box-shadow: 2px 2px rgba($color: palette.$color-text, $alpha: 0.2) inset;
-  flex-grow: 1;
+  align-items: start;
 
-  .empty {
-    font-size: 2rem;
-    color: palette.$color-text;
-    height: 100%;
-    opacity: 0.2;
-  }
+  // TODO use this if flex doesn't work
+  //   display: grid;
+  //   grid-template-columns: repeat(auto-fit, minmax(200px, 4fr));
 }

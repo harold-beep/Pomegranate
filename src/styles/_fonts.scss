@@ -1,10 +1,11 @@
 /* TODO fix this font issue - workaround, use embedded fonts */
-$weight-light: "200";
-$weight-med: "600";
-$weight-heavy: "900";
 
 @font-face {
-  font-family: "DM Sans";
-  src: local("DM Sans"),
-    url("../assets/fonts/DM_Sans/static/DMSans-Black.ttf") format("truetype");
+  font-family: "Big John";
+  src: local("Big John"), url("./assets/fonts/BIG\ JOHN.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Slim Joe";
+  src: local("Slim Joe"), url("./assets/fonts/Slim\ Joe.otf") format("opentype");
 }

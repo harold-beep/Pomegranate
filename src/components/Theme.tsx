@@ -13,15 +13,6 @@ const Theme = ({ children }: { children: ReactNode }) => {
           },
         },
       },
-      MuiPaper: {
-        styleOverrides: {
-          root: {
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-          },
-        },
-      },
     },
   });
   return <ThemeProvider theme={theme}>{children}</ThemeProvider>;
