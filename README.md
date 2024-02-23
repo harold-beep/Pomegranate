@@ -16,3 +16,5 @@ https://coolors.co/palette/daf2d7-e4fde1-c6edc3-a7dca5-90cf8e<br>
 - must use a component library [in this case, material-ui]
 - add a backend into the todo list sub app
 - use a library for the clock
+
+![alt text] (src\assets\mockups\mockup.png)
