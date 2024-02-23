@@ -42,7 +42,7 @@ const Header = ({
           onClick={() => onClick("clock")}
           startIcon={<WatchLaterIcon />}
         >
-          <Typography>Clock should be here</Typography>
+          <Typography>Display Clock</Typography>
         </Button>
       </Paper>
     </div>

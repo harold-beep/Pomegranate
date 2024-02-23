@@ -14,6 +14,7 @@ import YouTubePlayer from "./components/Player/Index";
 import DigitalClock from "./components/Clock/Index";
 
 function App() {
+  //TODO fix this unknown dispatch error
   const activeFeature = useSelector((state) => state.app.activeFeature);
   const dispatch = useDispatch();
 
@@ -30,7 +31,7 @@ function App() {
       <Header onClick={handleFeatureClick} selectedFeatures={activeFeature} />
       <Container>
         {activeFeature.length === 0
-          ? "What do you want to do?"
+          ? "Select a what you want to do above"
           : activeFeature.map((feature: string) => (
               <div key={feature}>
                 {feature === "pomodoro" && <PomodoroTimer />}

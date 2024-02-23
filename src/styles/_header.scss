@@ -22,5 +22,6 @@
 
   .selected {
     background-color: palette.$color-secondary;
+    box-shadow: 2px 2px rgba($color: palette.$color-text, $alpha: 0.2) inset;
   }
 }

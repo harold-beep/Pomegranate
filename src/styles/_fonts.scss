@@ -9,3 +9,32 @@
   font-family: "Slim Joe";
   src: local("Slim Joe"), url("./assets/fonts/Slim\ Joe.otf") format("opentype");
 }
+
+//atomic like css rules
+.sf {
+  font-family: Slim Joe !important;
+}
+
+.bf {
+  font-family: Big John !important;
+}
+
+.w-500 {
+  font-weight: 500 !important;
+}
+
+.w-700 {
+  font-weight: 800 !important;
+}
+
+.w-900 {
+  font-weight: 900 !important;
+}
+
+.s-12 {
+  font-size: 1.2rem !important;
+}
+
+.s-24 {
+  font-size: 2.4rem !important;
+}

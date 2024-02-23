@@ -13,6 +13,18 @@ const Theme = ({ children }: { children: ReactNode }) => {
           },
         },
       },
+      MuiTypography: {
+        defaultProps: {
+          fontFamily: "inherit",
+        },
+      },
+      MuiTextField: {
+        styleOverrides: {
+          root: {
+            width: "100%",
+          },
+        },
+      },
     },
   });
   return <ThemeProvider theme={theme}>{children}</ThemeProvider>;
