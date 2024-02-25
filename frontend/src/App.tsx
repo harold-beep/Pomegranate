@@ -1,5 +1,5 @@
-import { useDispatch, useSelector } from "react-redux";
-import { setActiveFeature } from "./redux/store";
+import { useAppDispatch, useAppSelector } from "./redux/hooks";
+import { setActiveFeature } from "./redux/feature";
 
 //styles
 import "./styles.scss";
@@ -15,8 +15,8 @@ import DigitalClock from "./components/Clock/Index";
 
 function App() {
   //TODO fix this unknown dispatch error
-  const activeFeature = useSelector((state) => state.app.activeFeature);
-  const dispatch = useDispatch();
+  const activeFeature = useAppSelector((state) => state.feature.activeFeature);
+  const dispatch = useAppDispatch();
 
   const handleFeatureClick = (feature: string) => {
     const newActiveFeatures = activeFeature.includes(feature)

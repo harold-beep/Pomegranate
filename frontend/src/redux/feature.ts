@@ -1,4 +1,4 @@
-import { createSlice, configureStore, PayloadAction } from "@reduxjs/toolkit";
+import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
 interface containerState {
   activeFeature: string[];
@@ -8,8 +8,8 @@ const initialState: containerState = {
   activeFeature: [],
 };
 
-const appSlice = createSlice({
-  name: "app",
+const featureSlice = createSlice({
+  name: "feature",
   initialState,
   reducers: {
     setActiveFeature: (state, action: PayloadAction<string[]>) => {
@@ -18,10 +18,5 @@ const appSlice = createSlice({
   },
 });
 
-export const { setActiveFeature } = appSlice.actions;
-
-export const store = configureStore({
-  reducer: {
-    app: appSlice.reducer,
-  },
-});
+export const { setActiveFeature } = featureSlice.actions;
+export default featureSlice.reducer;
